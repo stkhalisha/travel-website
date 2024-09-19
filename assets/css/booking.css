@@ -1,0 +1,149 @@
+:root {
+  /* colors */
+
+  --united-nations-blue: hsl(214, 56%, 58%);
+  --bright-navy-blue: hsl(214, 57%, 51%);
+  --black-coral: hsl(225, 8%, 42%);
+  --yale-blue: hsl(214, 72%, 33%);
+  --gunmetal: hsl(206, 34%, 20%);
+  --gainsboro: hsl(0, 0%, 88%);
+  --cultured: hsl(0, 0%, 98%);
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+
+  /* typography */
+
+  --ff-poppins: "Poppins", sans-serif;
+  --ff-montserrat: "Montserrat", sans-serif;
+
+  --fs-1: calc(20px + 3.9vw);
+  --fs-2: calc(18px + 1.7vw);
+  --fs-3: calc(16px + 0.5vw);
+  --fs-4: 16px;
+  --fs-5: 15px;
+  --fs-6: 14px;
+  --fs-7: 13px;
+  --fs-8: 12px;
+
+  --fw-500: 500;
+
+  --fw-700: 700;
+  --fw-800: 800;
+
+  /* transition */
+
+  --transition: 0.25s ease-in-out;
+
+  /*  border-radius */
+
+  --radius-15: 15px;
+  --radius-25: 25px;
+}
+
+/* BODY */
+
+body {
+  box-sizing: border-box;
+  font-family: var(--ff-poppins);
+  background-color: var(--united-nations-blue);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: var(--radius-25);
+  padding: 20px 30px 40px;
+  min-width: 500px;
+  position: relative;
+}
+
+h1 {
+  color: var(--gunmetal);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: var(--fs-3);
+  font-family: var(--ff-montserrat);
+  font-weight: var(--fw-700);
+}
+
+label {
+  color: var(--black-coral);
+  margin-bottom: 3px;
+  display: block;
+  font-size: var(--fs-8);
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1.5px solid var(--black-coral);
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.date-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date-group {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.date-group:last-child {
+  margin-right: 0;
+}
+
+button {
+  text-align: center;
+  display: inline-block;
+  font-family: var(--ff-poppins);
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: var(--radius-15);
+  width: 100%;
+  text-transform: uppercase;
+  font-size: var(--fs-5);
+  background: var(--bright-navy-blue);
+  border-color: var(--bright-navy-blue);
+  color: var(--white);
+  padding: var(--padding, 8px 18px);
+  border: var(--border-width, 2px) solid transparent;
+  transition: var(--transition);
+}
+
+.edit-btn:is(:hover, :focus) {
+  background: var(--yale-blue);
+  border-color: var(--yale-blue);
+}
+
+/* CLOSE BUTTON */
+
+.close-button {
+  position: absolute;
+  top: -17px;
+  right: 0px;
+}
+
+.btn-close {
+  background: none;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #000;
+}
+
+.btn-close::before {
+  content: "\00d7";
+  font-weight: bold;
+}

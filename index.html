@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Badjo: Your Travel Services</title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+
+  <body id="top">
+    <!-- Header -->
+    <header class="header">
+      <div class="header">
+        <div class="container">
+          <div class="navbar-logo">
+            <a href="#home">Badjo</a>
+          </div>
+
+          <nav class="navbar" data-navbar>
+            <ul class="navbar-list">
+              <li>
+                <a href="#home" class="navbar-link">Beranda</a>
+              </li>
+
+              <li>
+                <a href="#destinasi" class="navbar-link">Destinasi</a>
+              </li>
+
+              <li>
+                <a href="#package" class="navbar-link">Paket wisata</a>
+              </li>
+
+              <li>
+                <a href="#gallery" class="navbar-link">Galeri</a>
+              </li>
+
+              <li>
+                <a href="#contact" class="navbar-link">Hubungi kami</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="btn-group">
+            <a href="http://localhost/badjo/edit_order.php" class="btn">
+              <i class="fas fa-edit icon-white"></i>
+            </a>
+
+            <a
+              href="http://localhost/badjo/booking_form.php"
+              class="btn btn-secondary"
+            >
+              Pesan Sekarang
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- Hero -->
+        <section class="hero" id="home">
+          <div class="container">
+            <h2 class="h1 hero-title">Labuan Bajo</h2>
+            <p class="hero-text">
+              Labuan Bajo adalah pintu gerbang Anda menuju petualangan. Temukan
+              Komodo komodo, menyelami terumbu karang yang indah, bersantai di
+              pantai yang masih asli, dan menikmati matahari terbenam yang
+              menakjubkan.
+            </p>
+            <div class="btn-group">
+              <a
+                href="http://localhost/badjo/booking_form.php"
+                class="btn btn-primary"
+              >
+                Pesan Sekarang
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Destinations -->
+        <section class="destination" id="destinasi">
+          <div class="container">
+            <p class="section-subtitle">Jelajahi</p>
+            <h2 class="h2 section-title">Destinasi Populer</h2>
+            <p class="section-text">
+              Terletak di ujung barat Pulau Flores, Nusa Tenggara Timur, Labuan
+              Bajo adalah gerbang petualangan tropis dengan keindahan alam dan
+              keanekaragaman hayati laut yang menakjubkan.
+            </p>
+
+            <ul class="popular-list">
+              <li>
+                <div class="popular-card">
+                  <figure class="card-img">
+                    <img
+                      src="./assets/images/popular-1.jpg"
+                      alt="Pulau Komodo"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <p class="card-subtitle">
+                      <a href="#">NTT</a>
+                    </p>
+
+                    <h3 class="h3 card-title">
+                      <a
+                        href="https://www.youtube.com/watch?v=RaTWq98hzF0"
+                        target="_blank"
+                        >Pulau Komodo</a
+                      >
+                    </h3>
+
+                    <p class="card-text">
+                      Rumah bagi komodo raksasa, pemandangan menakjubkan, dan
+                      satwa liar unik.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="popular-card">
+                  <figure class="card-img">
+                    <iframe
+                      src="https://www.youtube.com/embed/7XRHZ4g9z3A?si=9mhSOFtNBcnN4_9I"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerpolicy="strict-origin-when-cross-origin"
+                      allowfullscreen
+                    ></iframe>
+                  </figure>
+
+                  <div class="card-content">
+                    <p class="card-subtitle">
+                      <a href="#">NTT</a>
+                    </p>
+
+                    <h3 class="h3 card-title">
+                      <a
+                        href="https://www.youtube.com/watch?v=7XRHZ4g9z3A"
+                        target="_blank"
+                        >Desa Wae Rebo</a
+                      >
+                    </h3>
+
+                    <p class="card-text">
+                      Desa adat dengan rumah-rumah unik, pemandangan
+                      menakjubkan, dan kekayaan budaya.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="popular-card">
+                  <figure class="card-img">
+                    <img
+                      src="./assets/images/popular-2.jpg"
+                      alt="Pulau Padar"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <p class="card-subtitle">
+                      <a href="#">NTT</a>
+                    </p>
+
+                    <h3 class="h3 card-title">
+                      <a
+                        href="https://www.youtube.com/watch?v=TqBt9y2HnK0"
+                        target="_blank"
+                        >Pulau Padar</a
+                      >
+                    </h3>
+
+                    <p class="card-text">
+                      Pulau menakjubkan dengan pemandangan dramatis, cocok untuk
+                      hiking dan fotografi.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="popular-card">
+                  <figure class="card-img">
+                    <iframe
+                      src="https://www.youtube.com/embed/K7WhvIlu1U4?si=GncBHF6dkoEZs5M1"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerpolicy="strict-origin-when-cross-origin"
+                      allowfullscreen
+                    ></iframe>
+                  </figure>
+
+                  <div class="card-content">
+                    <p class="card-subtitle">
+                      <a href="#">NTT</a>
+                    </p>
+
+                    <h3 class="h3 card-title">
+                      <a
+                        href="https://www.youtube.com/watch?v=K7WhvIlu1U4"
+                        target="_blank"
+                        >Pink Beach</a
+                      >
+                    </h3>
+
+                    <p class="card-text">
+                      Nikmati Pantai berpasir merah muda yang memukau, eksotis,
+                      dan sangat langka.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Packages -->
+        <section class="package" id="package">
+          <div class="container">
+            <p class="section-subtitle">Paket Wisata</p>
+            <h2 class="h2 section-title">Booking Paket Kami</h2>
+            <p class="section-text">
+              Rasakan pengalaman tak terlupakan di Labuan Bajo dengan paket
+              wisata eksklusif kami. Nikmati keindahan alam, eksplorasi pulau,
+              dan keanekaragaman hayati laut. Pesan sekarang!
+            </p>
+
+            <ul class="package-list">
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/package-1.jpg"
+                      alt="Paket Wisata Standard"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">Paket Wisata Standard</h3>
+
+                    <p class="card-text">
+                      Visit ke Pulau Komodo untuk melihat komodo. Snorkeling di
+                      Pink Beach. Kunjungan ke Pulau Rinca untuk trekking dan
+                      melihat komodo. Wisata ke Pulau Padar untuk trekking dan
+                      pemandangan panorama.
+                    </p>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+
+                          <p class="text">3D/2N</p>
+                        </div>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+
+                          <p class="text">pax: 10</p>
+                        </div>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="fast-food-outline"></ion-icon>
+                          <p class="text">3x/1D</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="reviews">(50 reviews)</p>
+
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+
+                    <p class="price">
+                      Rp.4-6jt
+                      <span>/ per orang</span>
+                    </p>
+
+                    <button class="btn btn-secondary">Pesan Sekarang</button>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/package-2.jpeg"
+                      alt="Paket Wisata Deluxe"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">Paket Wisata Deluxe</h3>
+
+                    <p class="card-text">
+                      Kunjungan ke Pulau Komodo dan Rinca. Snorkeling di Pink
+                      Beach dan Manta Point. Trekking di Pulau Padar. Kunjungan
+                      ke pulau-pulau kecil seperti Kanawa Island dan Sebayur
+                      Island. Tur sunset di Pulau Kalong.
+                    </p>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+
+                          <p class="text">4D/3N</p>
+                        </div>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+
+                          <p class="text">pax: 7</p>
+                        </div>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="fast-food-outline"></ion-icon>
+                          <p class="text">3x/1D</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="reviews">(34 reviews)</p>
+
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+
+                    <p class="price">
+                      Rp.6-8.5jt
+                      <span>/ per orang</span>
+                    </p>
+
+                    <button class="btn btn-secondary">Pesan Sekarang</button>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/package-3.jpeg"
+                      alt="Paket Wisata Luxury"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">Paket Wisata Luxury</h3>
+
+                    <p class="card-text">
+                      Kunjungan mendalam ke Pulau Komodo, Rinca, dan Padar.
+                      Snorkeling di beberapa lokasi seperti Pink Beach, Manta
+                      Point, dan Kanawa Island. Trekking dan eksplorasi
+                      pulau-pulau lainnya seperti Gili Lawa. Tur sunset dan
+                      sunrise. Aktivitas tambahan seperti diving (opsional
+                      dengan biaya tambahan).
+                    </p>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+
+                          <p class="text">5D/4N</p>
+                        </div>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+
+                          <p class="text">pax: 5</p>
+                        </div>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="fast-food-outline"></ion-icon>
+                          <p class="text">3x/1D</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="reviews">(17 reviews)</p>
+
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+
+                    <p class="price">
+                      Rp.8-12jt
+                      <span>/ per orang</span>
+                    </p>
+
+                    <button class="btn btn-secondary">Pesan Sekarang</button>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="package-card">
+                  <figure class="card-banner">
+                    <img
+                      src="./assets/images/package-4.jpeg"
+                      alt="Paket Wisata Adventure"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">Paket Wisata Adventure</h3>
+
+                    <p class="card-text">
+                      Trekking ke Pulau Padar untuk pemandangan spektakuler.
+                      Diving atau snorkeling di beberapa lokasi, seperti Manta
+                      Point dan Pink Beach. Kunjungan ke Pulau Komodo untuk
+                      melihat komodo Trekking dan eksplorasi Pulau Rinca.
+                    </p>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="time"></ion-icon>
+
+                          <p class="text">3D/2N</p>
+                        </div>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="people"></ion-icon>
+
+                          <p class="text">pax: 10</p>
+                        </div>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <div class="meta-box">
+                          <ion-icon name="fast-food-outline"></ion-icon>
+                          <p class="text">3x/1D</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="card-price">
+                    <div class="wrapper">
+                      <p class="reviews">(64 reviews)</p>
+
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </div>
+
+                    <p class="price">
+                      Rp.3-5jt
+                      <span>/ per orang</span>
+                    </p>
+
+                    <button class="btn btn-secondary">Pesan Sekarang</button>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Gallery -->
+        <section class="gallery" id="gallery">
+          <div class="container">
+            <p class="section-subtitle">Tentang Kami</p>
+
+            <h2 class="h2 section-title">Nikmati Foto dan Video Gratis</h2>
+            <p class="section-text">
+              Pilih paket wisata kami dan nikmati foto serta video gratis yang
+              mengabadikan momen istimewa Anda, memastikan kenangan perjalanan
+              Anda abadi dan tak terlupakan.
+            </p>
+
+            <ul class="gallery-list">
+              <li class="gallery-item">
+                <figure class="gallery-image">
+                  <img
+                    src="./assets/images/gallery-1.jpg"
+                    alt="Gallery image"
+                  />
+                </figure>
+              </li>
+
+              <li class="gallery-item">
+                <figure class="gallery-image">
+                  <img
+                    src="./assets/images/gallery-2.jpg"
+                    alt="Gallery image"
+                  />
+                </figure>
+              </li>
+
+              <li class="gallery-item">
+                <figure class="gallery-image">
+                  <img
+                    src="./assets/images/gallery-3.jpg"
+                    alt="Gallery image"
+                  />
+                </figure>
+              </li>
+
+              <li class="gallery-item">
+                <figure class="gallery-image">
+                  <img
+                    src="./assets/images/gallery-4.jpg"
+                    alt="Gallery image"
+                  />
+                </figure>
+              </li>
+
+              <li class="gallery-item">
+                <figure class="gallery-image">
+                  <img
+                    src="./assets/images/gallery-5.jpg"
+                    alt="Gallery image"
+                  />
+                </figure>
+              </li>
+
+              <li class="gallery-item">
+                <figure class="gallery-image">
+                  <img
+                    src="./assets/images/gallery-6.jpg"
+                    alt="Gallery image"
+                  />
+                </figure>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-brand">
+            <a href="#home">Badjo</a>
+            <p class="footer-text">
+              Badjo: Your Travel Service siap menjadikan petualangan Anda
+              berikutnya sebagai pengalaman yang penuh makna dan kenangan tak
+              terlupakan.
+            </p>
+          </div>
+
+          <div class="footer-contact">
+            <h4 class="contact-title">Contact Us</h4>
+            <p class="contact-text">Jangan ragu untuk menghubungi kami</p>
+
+            <ul>
+              <li class="contact-item">
+                <ion-icon name="call-outline"></ion-icon>
+                <a href="tel:+62853188997891" class="contact-link"
+                  >+628 (531) 8899 7891</a
+                >
+              </li>
+
+              <li class="contact-item">
+                <ion-icon name="mail-outline"></ion-icon>
+                <a href="mailto:khalisha.code@gmail.com" class="contact-link"
+                  >badjo@gmail.com</a
+                >
+              </li>
+
+              <li class="contact-item">
+                <ion-icon name="location-outline"></ion-icon>
+                <address>31029 Kupang, NTT</address>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-form">
+            <p class="form-text">
+              Berlangganan newsletter kami untuk pembaruan serta promo menarik
+              lainnya!
+            </p>
+
+            <form action="" class="form-wrapper">
+              <input
+                type="email"
+                name="email"
+                class="input-field"
+                placeholder="Masukkan Alamat Email"
+                required
+              />
+
+              <button type="submit" class="btn btn-secondary">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">
+            &copy; 2024
+            <a href="https://github.com/stkhalisha" target="_blank"
+              >khalishacode</a
+            >. All rights reserved
+          </p>
+
+          <ul class="footer-bottom-list">
+            <li>
+              <a href="#" class="footer-bottom-link">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-bottom-link">Term & Condition</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-bottom-link">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Ionicon Link -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
